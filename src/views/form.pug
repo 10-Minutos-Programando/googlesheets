@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")/
+        title Videos 10 miuntos programando
+    body
+        div
+            form(method="post" action="/form")
+                div
+                    label(for="titulo") Titulo:
+                    p
+                        input(type="text" placeholder="Escribe el titulo del video" name="titulo")
+                div
+                    label(for="estado") Estado:
+                    p
+                        input(type="text" placeholder="Escribe el estado del video" name="estado")
+
+                div
+                    label(for="formador") Formador:
+                    p
+                        input(type="text" placeholder="Escribe el formador" name="formador")
+
+                div
+                    button(type="submit") Guardar

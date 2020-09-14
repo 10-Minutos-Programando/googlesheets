@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")/
+        title Videos 10 miuntos programando
+    body
+        div
+            ul
+                each registro, index in registros
+                        li #{registro.titulo + ': ' + registro.estado + ' -> ' + registro.formador}
+
+            hr
+            p
+                a(href="/form") Ingresar Nuevo
